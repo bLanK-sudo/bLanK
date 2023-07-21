@@ -24,17 +24,57 @@
         width: 100vw;
         height: 100vh;
     }
-
+    h1{
+        font-family: 'Archivo';
+        font-weight: 900;
+        font-size: 5rem;
+        margin: 0;
+    }
     div {
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 4px;
         max-width: 100vw;
+        padding: 20px;
+    }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 20px;
+        border: 2px solid black;
+        border-radius: 150px;
+    }
+    ul{
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration-color: none;
+        color: #000;
     }
 </style>
 
 <body>
+    <!-- <img src="/this.png" alt=""> -->
+    <h1>bLanK</h1>
+    <p>COMING SOON</p>
     <div>
-    <img src="/this.png" alt="">
+        <a href="/">
+            home
+        </a>
+         <span style="font-size:2rem;margin:0;">&centerdot;</span>
+        <a href="https://blog.blank.org.in/">
+            blog
+        </a>
+         <span style="font-size:2rem;margin:0;">&centerdot;</span>
+        <a href="https://mocktest.blank.org.in/">
+            mocktest
+        </a>
     </div>
 </body>
 
